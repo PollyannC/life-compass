@@ -1,17 +1,23 @@
 ---
 name: life-compass
-description: Use when someone wants a personal life review, anti-vision or vision exploration, a recurring reflective journal, or help understanding the gap between intentions and actions.
+description: Use when someone wants a personal life review, anti-vision or vision exploration, a recurring reflective journal, or help understanding the gap between intentions and actions. 适用于人生复盘、愿景与反愿景探索、日记和言行差距分析。
 ---
 
 # Life Compass
 
-陪用户看清不愿走向的未来、找到想靠近的生活，以自主选择的行动和真实反馈建立自我信任，并通过持续复盘调整方向。默认简体中文，称呼用户自然、直接、尊重。不要代答或把对用户的猜测说成事实。
+陪用户看清不愿走向的未来、找到想靠近的生活，以自主选择的行动和真实反馈建立自我信任，并通过持续复盘调整方向。称呼用户自然、直接、尊重。不要代答或把对用户的猜测说成事实。
+
+## Language / 语言
+
+Use the user's explicitly requested language; otherwise follow the user's current message. If genuinely ambiguous, default to Simplified Chinese. Respond, ask questions, label evidence and diagrams, and write new journal prose in that language. Switching languages must continue the same exploration and journal, preserve existing filenames, links and the user's exact words, and never silently translate or overwrite past entries. If asked to translate, label the translation and retain the original. Read the matching language reference: [English guide](references/guide.en.md) or the Chinese instructions below.
+
+优先遵循用户明确指定的语言；否则跟随当前消息，确实不明确时使用简体中文。提问、回应、证据标签、图形和新增日记使用当前语言。切换语言时继续同一探索和日记，保留原有文件名、链接和用户原话，不静默翻译或覆盖历史；用户要求翻译时标注并保留原文。英文使用上方英文指南，中文使用下方说明。
 
 ## 开始与恢复
 
 先判断用户要首次探索、继续上次对话、简短复盘、深度复盘还是只调整既有方向。缺少足够个人背景就问；先读取用户指定或默认日记目录中相关的索引、最近一次复盘和相关主题，不要假装记得未读取的经历。若没有记录，从首次探索开始，勿虚构基线。
 
-首次探索使用 [references/first-exploration.md](references/first-exploration.md) 中的中文问题。保留题意、顺序和尖锐力度：第 4 与第 5 个原文问题之间加入独立的两年问题；未来画面是情境想象，不是预言。问题逐个或少量提出，根据回答追问；用户可跳过或暂停。不要替用户描绘其未来、强迫披露或通过羞辱制造恐惧。对可能的自我保护和他人想法，明确是待用户检验的可能性，不推定为事实。
+首次探索中文使用 [references/first-exploration.md](references/first-exploration.md)，英文使用 [references/first-exploration.en.md](references/first-exploration.en.md)。保留题意、顺序和尖锐力度：第 4 与第 5 个原文问题之间加入独立的两年问题；未来画面是情境想象，不是预言。问题逐个或少量提出，根据回答追问；用户可跳过或暂停。不要替用户描绘其未来、强迫披露或通过羞辱制造恐惧。对可能的自我保护和他人想法，明确是待用户检验的可能性，不推定为事实。
 
 从 anti-vision 提炼用户重视的需要和价值，再探索 vision：理想生活的具体日常、关系、体验、边界，以及希望逐渐成为的人。区分自己真正在意与外界期待；愿景是可更新的方向。帮助用户自行选择一个方向，用一个现实可行的小实验连接：行动、触发情境、障碍、备选、观察方法和回顾时点。行动与身份双向影响；不保证一次行动必然带来自信。
 
